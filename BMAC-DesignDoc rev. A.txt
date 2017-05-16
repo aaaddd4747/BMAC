@@ -1,0 +1,105 @@
+BlackMagic Admin Commands (BMAC)
+By Jallar & aaaddd
+
+Command Prefix: /
+"Free" Cmd Prefix: !
+Open Command Bar (If Mod+): `
+
+Select multiple people at a time
+	/kill jallar, aaaddd, random, t-raiders
+
+Select a certain group of people
+	all
+	others
+	me
+	t- (team selector, must specify team. Ie. t-raiders)
+	admins
+	nonadmins
+	random
+	*
+
+
+Note: All commands are "sequential" for use. Owner>Admin>Mod>Free, but *not* Free>Mod>Admin>Owner.
+(DF does this even mean?)
+
+RootOwner
+	special pseudo rank, identical to owner except it cannot be revoked.
+
+Owner
+	/god jallar - Gives player infinite health and ff
+	/ungod jallar - Returns player health back to 100 and removes ff
+	/serverlock - Prevents any non-admin entering the server
+	/serverunlock - Allows any player to enter the server
+	/sm - Creates a system message (Game-wide?)
+	/oa jallar - Temp. Owner admin's player
+	/poa ob - Owner-Admins player
+	/roa jallar - Removes Owner admin from player
+	/admin jallar - Temp. Admins player
+	/padmin ob - Admins player (persistent)
+	/radmin jallar - Removes admin from player
+	/unban jallar - Unbans the player
+	/shutdown - Shuts down the server
+	/shutdownall - Shuts down all servers of that game
+
+Admin
+	/kill jallar - Kills the player
+	/jail jallar - Sends a player to [0,0,0], removes all tools, mutes. (Keeps them floating so they dont die and respawn?)
+	/rjail jallar - Sends the player to the speaker, returns starter tools, unmutes.
+	/respawn jallar - Respawns the player
+	/refresh jallar - Gets the players appearance from the site and refreshes the players look
+	/invis jallar - Makes player invisible
+	/vis jallar - Makes player visible
+	/freeze jallar - Freezes the player
+	/thaw jallar - Unfreezes the player
+	/heal jallar - Heals the player to max
+	/health jallar 9999 - Changes the players max health to specified value
+	/speed jallar 9999 - Changes the players walkspeed to the specified value
+	/name jallar aaaddd - Changes the players name
+	/rname jallar - Returns player name to normal
+	/music 161097 - Plays a sound using the given ID
+	/stopmusic - Stops all sounds in the workspace
+	/pitch 2 - Changes the pitch of the current playing sound
+	/musiclist - Displays a list of all the pre-entered music
+	/place jallar 123456 - Sends a request to TP the player to a different place using the ID
+	/dummy jallar - Creates a dummy clone of the player
+	/promote jallar rank - Promotes the player to the given rank. Group ID will be in a value in the server, allowing this to be game/group-specific.
+	/ban jallar - Bans the player permanently
+	/mod jallar - Temp. mods player
+	/rmod jallar - Removes mod from player
+
+Moderator
+	/clean - Cleans up hats/tools on ground that may be causing lag
+	/fly jallar - Gives the player flight
+	/rfly jallar - Removes fly from the player
+	/bans - Displays a list of all users banned
+	/hat jallar 123456 - Gives the player a hat using the ID
+	/m Hello World- Sends a message to everyone on the server
+	/tm Hello World 120 - Shows a message for specified seconds. Caps at 120.
+	/cd 120 - Creates a hint with a countdown. Caps at 120 seconds.
+	/time 14:30 - Changes ToD to time specified. 24 hour format.
+	/rtools jallar - Removes all tools from players backpack
+	/stools jallar - Gives player the starter tools
+	/btools jallar - Gives player building tools
+	/give jallar sword - Gives player a tool. Tool specified must be in ServerStorage.
+	/tools - Display a list of all tools available to be given
+	/team jallar raiders - Changes players team
+	/tp jallar aaaddd/wp - Teleports player to another specified player or waypoint
+	/wp Name - Creates a temp. waypoint in the server with a given name
+	/kick jallar - Removes player from the server
+	/tban jallar 30 - Temp. bans player for given minutes.
+	/stat jallar kills 9999 - Changes the players stat "Kills" to specified value
+	/rstats jallar - Changes all players stats to 0
+	/selrand - Selects a random player (Gives Sparkles for 5 seconds, removes sparkles auto)
+	/info jallar - Shows information on player, including Age, Groups, ID, etc
+	/mute jallar - Prevents a player from chatting
+	/rmute jallar - Allows a player to chat if previously muted
+	/log jallar Note - Logs the specified player/ID with the Place/ID and a timestamp of when the log was sent, alongside a note on why they were logged.
+	/view jallar - Changes the speakers camera to the target player
+	/stopview - Removes target camera and returns speakers camera to normal
+	/vote jallar Admin Cmds are cool? - Gives player 30 seconds to vote yes/no to given string. Returns results to speaker after 30 seconds are up.
+
+All players
+	!help - Sends a message to all admins in server that the player that sent the command needs help
+	!admins - Displays a list of all admins
+	!rank jallar 123456 - Displays the players rank and role in a group
+	!join jallar - Searches to see if the player is online in any server, and if so, attempts to move the speaker to that server
