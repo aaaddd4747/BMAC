@@ -105,3 +105,30 @@ All players
 	!admins - Displays a list of all admins
 	!rank jallar 123456 - Displays the players rank and role in a group
 	!join jallar - Searches to see if the player is online in any server, and if so, attempts to move the speaker to that server
+	
+Fun Commands
+	/trip jallar - Trips the player
+	/jump jallar - Makes the player jump
+	/sit jallar - Makes the player sit
+	/amb 255 255 255 - Changes the ambient lighting to the values specified
+	/oamb 255 255 255 - Changes the outdoor ambient lighting to the values specified
+	/fixl - Fixes the lighting, returns default values
+	/guest jallar - Changes the player into a Guest
+	/midas jallar - Changes the player into gold
+	/normal jallar - Returns the player to normal. (Same as /refresh?)
+	/fling jallar - Flings the player
+	/char jallar 161097 - Makes the player look like another player via the given ID
+	/spin jallar - Spins the player non-stop
+	/rspin jallar - Stops spinning the player
+	/firework - Fires a random colour firework from the speakers head. Does no damage
+	/grav jallar 10 - Sets the gravity for the player to the given value
+	/fixgrav jallar - Makes grav normal for the player
+	/asteroid jallar - Fires an asteroid at player
+	/crown jallar - Gives player a crown, because they are the best!
+	/rcrown jallar - Removes crown from player
+	/joke jallar - Shows player a random joke. Haha.
+	/lamp jallar - Turns players head into a light.
+	/rlamp jallar - Removes light from the players head
+	/ludicrous jallar - Plays a sound clip, then launches the player at a 45deg angle into the sky at ludicrous speed before killing 			     them
+	/airhorn - BWEEE BWE BWE BWEEEEEEEE
+	/rickroll jallar - Never give's the player up. Never lets them down.
