@@ -40,6 +40,7 @@ Owner
 	/unban jallar - Unbans the player
 	/shutdown - Shuts down the server
 	/shutdownall - Shuts down all servers of that game
+	/regen - regenerates the entire world
 
 Admin
 	/kill jallar - Kills the player
