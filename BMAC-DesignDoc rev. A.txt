@@ -64,7 +64,7 @@ Admin
 	/musiclist - Displays a list of all the pre-entered music
 	/place jallar 123456 - Sends a request to TP the player to a different place using the ID
 	/dummy jallar - Creates a dummy clone of the player
-	/promote jallar rank - Promotes the player to the given rank. Group ID will be in a value in the server, allowing this to be 				       game/group-specific.
+	/promote jallar rank - Promotes the player to the given rank. Group ID will be in a value in the server, allowing this to be game/group-specific.
 	/ban jallar - Bans the player permanently
 	/mod jallar - Temp. mods player
 	/rmod jallar - Removes mod from player
@@ -95,10 +95,10 @@ Moderator
 	/info jallar - Shows information on player, including Age, Groups, ID, etc
 	/mute jallar - Prevents a player from chatting
 	/rmute jallar - Allows a player to chat if previously muted
-	/log jallar Note - Logs the specified player/ID with the Place/ID and a timestamp of when the log was sent, alongside a note on 			   why they were logged.
+	/log jallar Note - Logs the specified player/ID with the Place/ID and a timestamp of when the log was sent, alongside a note on why they were logged.
 	/view jallar - Changes the speakers camera to the target player
 	/stopview - Removes target camera and returns speakers camera to normal
-	/vote jallar Admin Cmds are cool? - Gives player 30 seconds to vote yes/no to given string. Returns results to speaker after 30 					    seconds are up.
+	/vote jallar Admin Cmds are cool? - Gives player 30 seconds to vote yes/no to given string. Returns results to speaker after 30 seconds are up.
 
 All players
 	!help - Sends a message to all admins in server that the player that sent the command needs help
@@ -129,6 +129,6 @@ Fun Commands
 	/joke jallar - Shows player a random joke. Haha.
 	/lamp jallar - Turns players head into a light.
 	/rlamp jallar - Removes light from the players head
-	/ludicrous jallar - Plays a sound clip, then launches the player at a 45deg angle into the sky at ludicrous speed before killing 			     them
+	/ludicrous jallar - Plays a sound clip, then launches the player at a 45deg angle into the sky at ludicrous speed before killing them
 	/airhorn - BWEEE BWE BWE BWEEEEEEEE
 	/rickroll jallar - Never give's the player up. Never lets them down.
